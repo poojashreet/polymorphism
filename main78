@@ -1,0 +1,13 @@
+package assign;
+
+public class Main66 {
+public static void main(String[] args) {
+Cat c=new Cat();
+dog d=new dog();
+snake s=new snake();
+AnimalSimulator a=new AnimalSimulator();
+a.makenoise(c);
+a.makenoise(d);
+a.makenoise(s);
+}
+}
