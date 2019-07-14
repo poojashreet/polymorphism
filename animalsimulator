@@ -1,0 +1,8 @@
+package assign;
+
+public class AnimalSimulator {
+	void makenoise(Animals a)
+	{
+		a.noise();
+	}
+}
