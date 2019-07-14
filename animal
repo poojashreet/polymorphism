@@ -1,0 +1,30 @@
+package assign;
+
+public class Animals {
+	void noise()
+	{
+		System.out.println("Animal");
+	}
+}
+class Cat extends Animals{
+	void noise()
+	{
+		System.out.println("mew");
+	}
+}
+
+class dog extends Animals
+{
+	void noise()
+	{
+		System.out.println("bark");
+	}
+}
+	
+class snake extends Animals
+{
+	void noise()
+	{
+		System.out.println("biss");
+	}
+}	
